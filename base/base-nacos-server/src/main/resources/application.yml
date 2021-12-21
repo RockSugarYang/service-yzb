@@ -1,0 +1,17 @@
+server:
+  shutdown: graceful  #开启优雅停机
+spring:
+  application:
+    name: base-nacos-server
+  profiles:
+    active: loc
+  lifecycle:
+    timeout-per-shutdown-phase: 30s #设置优雅关闭最大等待时间
+  jackson:
+    time-zone: GMT+8
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+
+logging:
+  level:
+    root: info

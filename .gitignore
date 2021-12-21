@@ -1,0 +1,13 @@
+/**/*.iml
+*.iml
+/target/
+/**/target/*
+.vscode/
+/.project
+/logs
+/**/*.log
+/dist
+.idea
+/**/logs/*
+.DS_Store
+.txlcn
